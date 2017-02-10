@@ -1,2 +1,3 @@
 - babel-loader
+-- possibly use options in webpack config not .babelrc. See: https://webpack.js.org/configuration/ The counterargument is what if you want to call just babel at the command line (not that you usually do, except for troubleshooting build issues maybe)
 - scss
