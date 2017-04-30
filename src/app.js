@@ -1,5 +1,11 @@
 import $ from 'jquery';
 
 $(() => {
-    $('#main').fadeOut().fadeIn();
+    let $main = $('#main');
+
+    $main.fadeOut().fadeIn();
+
+    $('#info').html(`${$main.width()} &times; ${$main.height()}`);
 });
+
+
